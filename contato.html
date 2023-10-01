@@ -16,6 +16,49 @@
     </header>
     <div class="content">
         <h1>Contato</h1>
-        <input type="text" name="Insira seu nome" id="textbox">
+        <form action="">
+            <div>
+                <label for="nome">Insira seu nome aqui:</label>
+                <input type="text" name="Nome" id="nome">
+            </div>
+            <div>
+                <label for="numero">Insira seu número aqui:</label>
+                <input type="tel" name="Numero" id="numero">
+            </div>
+            <div>
+                <label for="email">Insira seu Email:</label>
+                <input type="email" name="Email" id="email">
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Pessoa Física ou pessoa Jurídica?</legend>
+                    <input type="radio" name="pessoa" id="pf">
+                    <label for="pf">Pessoa Física</label>
+                    <input type="radio" name="pessoa" id="pj">
+                    <label for="pj">Pessoa Jurídica</label>
+                </fieldset>
+            </div>
+            <div>
+                <label for="horario">Melhor horário de contato:</label>
+                <input type="time" name="Horario" id="horario">
+            </div>
+            <div>
+                <label for="combobox">Tipo de serviço:</label>
+                <select name="select" id="combobox">
+                    <option value="valor1" selected>Página estática</option>
+                    <option value="valor2">Página dinâmica</option>
+                    <option value="valor3">Página avançada</option>
+                </select>
+            </div>
+            <div>
+                <p>Insira uma descrição detalhada do serviço:</p>
+                <textarea name="descrição" id="desc" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
     </div>
+</label>
+</div>
 </html>
