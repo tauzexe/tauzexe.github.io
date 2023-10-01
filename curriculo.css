@@ -1,0 +1,61 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+
+body {
+    margin: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+/* Navigation Bar */
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.topnav a {
+    /* float: left; */
+    display: inline-flex;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.topnav a.active {
+    background-color: rgb(105, 22, 22);
+    color: white;
+}
+
+/* Primary content */
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 0, 14);
+}
+
+.content h1 {
+    font-size: 50px;
+}
+
+.content p {
+    font-size: 25px;
+}
