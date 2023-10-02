@@ -47,15 +47,28 @@ body::-webkit-scrollbar {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: rgb(6, 0, 14);
 }
 
 .content h1 {
-    font-size: 50px;
+    font-size: 60px;
+}
+table {
+    width: 80%;
+    max-width: 600px;
+    height: 400px;
+}
+table, td {
+  border: 1px solid #333;
 }
 
-.content p {
-    font-size: 25px;
+thead, tfoot {
+  background-color: #333;
+  color: #fff;
+}
+
+td, th {
+    text-align: center;
+    font-size: 28px;
 }

@@ -47,7 +47,6 @@ body::-webkit-scrollbar {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: rgb(6, 0, 14);
 }
